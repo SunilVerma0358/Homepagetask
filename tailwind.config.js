@@ -61,6 +61,7 @@ module.exports = {
         23: "23px",
         30: "30px",
         One: "1px",
+        52: "52px",
         Sixty: "60px",
       },
     },

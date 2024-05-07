@@ -7,7 +7,7 @@ const UnlockBest = () => {
     <div className="py-12 sm:py-16">
       <div className="container lg:pt-16 mt-1 lg:pb-12">
         <div className=" bg-bigCard max-w-YourBestCard mx-auto rounded-xxl p-One">
-          <div className="bg-bluegreen mx-auto rounded-xxl overflow-hidden px-6 md:px-12 py-7 sm:py-10 md:!py-Sixty relative z-20">
+          <div className="bg-bluegreen mx-auto rounded-xxl overflow-hidden px-6 md:px-52 py-7 sm:py-10 md:!py-Sixty relative z-20">
             <div className="absolute -z-20 top-0 right-[-10%] ">
               <img
                 className=" max-w-ellipse"
