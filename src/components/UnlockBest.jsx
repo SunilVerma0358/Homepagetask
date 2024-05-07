@@ -34,7 +34,7 @@ const UnlockBest = () => {
                 </button>
               </div>
               <div className="w-full md:w-5/12 px-3">
-                <div className="max-w-Mdimg sm:max-w-img md:max-w-Mdimg mx-auto md:ms-auto md:me-0 overflow-hidden ">
+                <div className="max-w-Mdimg sm:max-w-img md:max-w-Mdimg mx-auto md:ms-auto md:me-0 overflow-hidden  rounded-xl">
                   <img
                     className="w-full rounded-xl hover:scale-[1.05] transition-all ease-linear duration-300"
                     src={UnlockBul}
