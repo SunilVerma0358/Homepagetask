@@ -16,7 +16,7 @@ const UnlockBest = () => {
               />
             </div>
             <div className="flex md:flex-row flex-wrap -mx-3 items-center flex-col-reverse pb-4 md:pb-30">
-              <div className="w-full md:w-7/12 px-3 pt-6 md:pt-0 text-center">
+              <div className="w-full md:w-7/12 px-3 pt-6 md:pt-0 text-center md:text-start">
                 <h2 className="font-Roboto font-semibold text-4xl leading-sm text-white">
                   Unlock Your Best Self
                 </h2>
@@ -34,9 +34,9 @@ const UnlockBest = () => {
                 </button>
               </div>
               <div className="w-full md:w-5/12 px-3">
-                <div className="max-w-Mdimg sm:max-w-img md:max-w-Mdimg mx-auto md:ms-auto md:me-0 ">
+                <div className="max-w-Mdimg sm:max-w-img md:max-w-Mdimg mx-auto md:ms-auto md:me-0 overflow-hidden ">
                   <img
-                    className="w-full rounded-xl"
+                    className="w-full rounded-xl hover:scale-[1.05] transition-all ease-linear duration-300"
                     src={UnlockBul}
                     alt="Unlock Your Best"
                   />

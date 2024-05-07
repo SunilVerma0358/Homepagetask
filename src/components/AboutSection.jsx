@@ -14,7 +14,7 @@ const AboutSection = () => {
         <div className="flex flex-row flex-wrap -mx-3 justify-center pt-4 md:pt-6 lg:pt-9">
           {CardMap.map((data, index) => (
             <div key={index} className="sm:w-6/12 lg:w-4/12 px-3 pt-6">
-              <div className="border border-bluelight rounded-2xl bg-CardBg px-4 xl:px-6 pb-4 lg:pb-6 relative overflow-hidden z-10 h-full max-w-borderwidth md:max-w-full">
+              <div className="border border-bluelight rounded-2xl bg-CardBg px-4 xl:px-6 pb-4 lg:pb-6 relative overflow-hidden z-10 h-full max-w-borderwidth md:max-w-full hover:scale-[1.02] transition-all duration-300 ease-linear">
                 <span className="w-[1px] h-7 bg-bgBorder block ms-8"></span>
                 <span className="w-full h-[1px] bg-bgBorder block absolute max-w-borderwidth left-0 top-14 -z-10"></span>
                 <div className="bg-blue6D rounded-full border border-gray max-w-16 h-16 flex justify-center items-center">
@@ -28,7 +28,7 @@ const AboutSection = () => {
                 <p
                   className={`${data.class} font-Open font-normal text-sm md:text-base !leading-lg opacity-70 pt-3`}
                 >
-                  {data.Phara}
+                  {data.Paragraph}
                 </p>
               </div>
             </div>
