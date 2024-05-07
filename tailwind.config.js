@@ -56,8 +56,12 @@ module.exports = {
       },
       // padding
       padding: {
-        2.5: "10px",
+        2.5: "9px",
+        13: "13px",
+        23: "23px",
+        30: "30px",
         One: "1px",
+        Sixty: "60px",
       },
     },
   },

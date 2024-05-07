@@ -2,16 +2,16 @@ import React from "react";
 import { CardMap } from "./common/Helper";
 const AboutSection = () => {
   return (
-    <div className="pt-2 pb-12 sm:pb-16 relative z-20">
-      <div className=" absolute bottom-0 right-0 -z-10 w-32 h-32 md:w-40 md:h-40 rounded-full blur-3xl bg-opacity-45 bg-bluewhite"></div>
+    <div className="pt-4 sm:pt-1 pb-12 sm:pb-16 relative z-20 overflow-hidden">
+      <div className=" absolute -bottom-11 -right-11 -z-10 w-32 h-32 md:w-40 md:h-40 rounded-full blur-3xl bg-opacity-45 bg-bluewhite"></div>
       <div className="max-w-container container lg:pb-16 mb-1">
-        <button className="font-Open font-semibold text-sm md:text-base text-green leading-md border border-green rounded-roundedxxl bg-green bg-opacity-10 py-2.5 px-6 uppercase block mx-auto">
+        <button className="font-Open font-semibold text-sm md:text-base text-green leading-md border border-green rounded-roundedxxl bg-green bg-opacity-10 py-2.5 px-23 uppercase block mx-auto transition-all duration-300 ease-linear hover:bg-opacity-65 hover:text-white">
           ABOUT US
         </button>
         <h2 className="font-Roboto font-bold text-4xl md:text-5xl text-black leading-sm text-center pt-2">
           Who <span className="text-green">We Are</span>
         </h2>
-        <div className="flex flex-row flex-wrap -mx-3 justify-center pt-6 lg:pt-9">
+        <div className="flex flex-row flex-wrap -mx-3 justify-center pt-4 md:pt-6 lg:pt-9">
           {CardMap.map((data, index) => (
             <div key={index} className="sm:w-6/12 lg:w-4/12 px-3 pt-6">
               <div className="border border-bluelight rounded-2xl bg-CardBg px-4 xl:px-6 pb-4 lg:pb-6 relative overflow-hidden z-10 h-full max-w-borderwidth md:max-w-full">
@@ -26,7 +26,7 @@ const AboutSection = () => {
                   {data.heading}
                 </h3>
                 <p
-                  className={`${data.class} font-Open font-normal text-sm md:text-base leading-lg opacity-70 pt-3`}
+                  className={`${data.class} font-Open font-normal text-sm md:text-base !leading-lg opacity-70 pt-3`}
                 >
                   {data.Phara}
                 </p>
